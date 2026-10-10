@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAILY WIN Giveaway</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101010;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 25px 10px;
+      background: #1b1b1b;
+      border-bottom: 2px solid gold;
+    }
+    h1 { color: gold; }
+    .card {
+      margin: 30px 20px;
+      padding: 25px;
+      background: #222;
+      border: 1px solid gold;
+      border-radius: 15px;
+    }
+    button {
+      padding: 14px 25px;
+      background: gold;
+      color: black;
+      border: none;
+      border-radius: 8px;
+      font-size: 17px;
+      font-weight: bold;
+    }
+    footer { padding: 20px; color: #bbb; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DAILY WIN</h1>
+    <p>FREE ENTRY GIVEAWAY</p>
+  </header>
+  <div class="card">
+    <h2>Welcome, Winners!</h2>
+    <p>Discover our latest giveaway and mixed prizes.</p>
+    <p>Entry is free. No purchase necessary.</p>
+    <button onclick="alert('Giveaway registration will be available soon!')">
+      JOIN GIVEAWAY
+    </button>
+  </div>
+  <footer>© 2026 DAILY WIN | Play Fair, Win Fair</footer>
+</body>
+</html>
